@@ -1,0 +1,25 @@
+-- Sugestoes de presente do convite.
+-- As imagens sao fotos representativas carregadas por URL; podem ser substituidas no painel admin.
+insert into public.gifts(name, description, category, image_url) values
+('Kit Lixeira Inox 3L e Escova Sanitária Inox para Banheiro', 'Kit para banheiro', 'Limpeza', 'img/gift-01.svg'),
+('Cesto de Bambu Roupa Suja Natural com Tampa e Alças de Corda', 'Cesto com tampa e alças', 'Organização', 'img/gift-02.svg'),
+('Churrasqueira Elétrica Britânia Menos Fumaça Preta', 'Churrasqueira elétrica', 'Cozinha', 'img/gift-03.svg'),
+('Conjunto Aparelho Fondue Grande Queijo Chocolate 6 Pessoas Preto', 'Conjunto para fondue', 'Cozinha', 'img/gift-04.svg'),
+('Kit Jogo de Lençol 4 Peças 600 Fios Egípcios Casal Queen King Micropercal', 'Kit com 4 peças', 'Cama, mesa e banho', 'img/gift-05.svg'),
+('Jogo Lençol Queen 3 Peças 400 Fios 100% Algodão Premium Cinza', 'Jogo com 3 peças', 'Cama, mesa e banho', 'img/gift-06.svg'),
+('Kit Cozinha Descascador Amassador de Batatas Espremedor Limão Alho Aço Inox', 'Utensílios em aço inox', 'Cozinha', 'img/gift-07.svg'),
+('Kit 12 Utensílios de Cozinha em Silicone Cabo Madeira', 'Kit com 12 utensílios', 'Cozinha', 'img/gift-08.svg'),
+('Jogo de Copos Nadir Aruba 465ml 6 Peças Transparente', 'Jogo com 6 copos', 'Utensílios domésticos', 'img/gift-09.svg'),
+('Escorredor de Louça 13 Pratos 2 Andares com Porta-Talheres e Copos', 'Escorredor de dois andares', 'Cozinha', 'img/gift-10.svg'),
+('Kit 60 Pregadores de Madeira Roupa Águia Branca', 'Kit com 60 pregadores', 'Limpeza', 'img/gift-11.svg'),
+('Escorredor de Massas e Macarrão em Aço Inox', 'Escorredor em inox', 'Cozinha', 'img/gift-12.svg'),
+('Kit de 3 Potes Herméticos Muug Vidro 1000ml com Tampa de Bambu', 'Kit com 3 potes', 'Organização', 'img/gift-13.svg'),
+('Jogo de Toalhas de Banho Gigantes 4 Peças Branco e Fendi', 'Jogo com 4 toalhas', 'Cama, mesa e banho', 'img/gift-14.svg'),
+('Liquidificador Mondial Turbo Power L-99 550W', 'Liquidificador 550W', 'Eletroportáteis', 'img/gift-15.svg'),
+('Espremedor de Frutas Electrolux Efficient para Laranjas e Limão', 'Espremedor de frutas', 'Eletroportáteis', 'img/gift-16.svg'),
+('Sanduicheira Grill Oliver Home 3 em 1 Brunch Time Antiaderente', 'Grill 3 em 1', 'Eletroportáteis', 'img/gift-17.svg'),
+('Kit 5 Panos de Prato Xadrez Branco com Dourado Algodão Laune Haus', 'Kit com 5 panos', 'Cama, mesa e banho', 'img/gift-18.svg'),
+('Porta Utensílios de Cozinha de Madeira e Plástico', 'Organizador de utensílios', 'Organização', 'img/gift-19.svg'),
+('Kit 126 Ferramentas Profissionais com Maleta Alicates Chaves Martelo Trena Nível', 'Maleta com ferramentas', 'Organização', 'img/gift-20.svg'),
+('Kit 3 Tapetes de Banheiro Microfibra Antiderrapantes Sortidos', 'Kit com 3 tapetes', 'Cama, mesa e banho', 'img/gift-21.svg'),
+('Mini Processador de Alimentos Manual Triturador de Alho 500ml com 3 Lâminas de Aço Inox', 'Processador manual', 'Cozinha', 'img/gift-22.svg');
