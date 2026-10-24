@@ -1,4 +1,4 @@
-<!DOCTYPE html><html lang="pt-BR"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Convite</title><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Allura&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet"><link rel="stylesheet" href="style.css"></head><body class="largo"><main class="card">
+<!DOCTYPE html><html lang="pt-BR"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Convite</title><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Allura&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet"><link rel="stylesheet" href="css/style.css"></head><body class="largo"><main class="card">
 <h2 class="t">Área administrativa</h2>
 <form id="login" class="f"><label for="em">E-mail</label><input id="em" type="email" autocomplete="username" required><label for="pw">Senha</label><input id="pw" type="password" autocomplete="current-password" required><button class="btn" type="submit">ENTRAR</button></form>
 <p id="msg" class="msg" role="alert"></p>
@@ -10,9 +10,8 @@
 <div class="scroll"><table><thead><tr><th>Nome</th><th>Confirmado em</th><th></th></tr></thead><tbody id="tbG"></tbody></table></div></div>
 <div id="vP" class="oculto" style="width:100%;display:flex;flex-direction:column;gap:12px;align-items:center">
 <h3>Presentes</h3>
-<form id="gform" class="linha"><input type="hidden" id="gid"><input id="gname" placeholder="Nome" required maxlength="120"><select id="gcat" required></select><input id="gdesc" placeholder="Descrição (opcional)"><input id="gimg" placeholder="URL da imagem ou emoji:🎁"><button class="btn sm" type="submit">SALVAR</button><button class="btn sm sec" type="button" id="gclear">LIMPAR</button></form>
+<form id="gform" class="linha"><input type="hidden" id="gid"><input id="gname" placeholder="Nome" required maxlength="120"><select id="gcat" required></select><input id="gdesc" placeholder="Descrição (opcional)"><input id="gimg" placeholder="URL da imagem"><button class="btn sm" type="submit">SALVAR</button><button class="btn sm sec" type="button" id="gclear">LIMPAR</button></form>
 <div class="scroll"><table><thead><tr><th>Presente</th><th>Categoria</th><th>Status</th><th></th></tr></thead><tbody id="tbP"></tbody></table></div></div>
 </section>
 <a class="btn sec" href="index.html">VOLTAR AO CONVITE</a>
-</main><script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.45.4/dist/umd/supabase.js"></script><script src="config.js?v=4"></script><script src="app.js?v=4"></script><script src="admin.js?v=4"></script></body></html>
-
+</main><script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.45.4/dist/umd/supabase.js"></script><script src="js/config.js?v=4"></script><script src="js/app.js?v=4"></script><script src="js/admin.js?v=4"></script></body></html>

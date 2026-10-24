@@ -10,6 +10,7 @@ form.addEventListener("submit",async e=>{
     const {data,error}=await sb.rpc("confirm_presence",{p_name:nome});
     if(error||data!=="ok") throw error||new Error(data);
     form.reset(); showMsg(msg,"ok","Presença confirmada! Ficamos muito felizes em compartilhar esse momento com você!");
+    window.setTimeout(()=>{ window.location.href="confirmacao.html?nome="+encodeURIComponent(nome); },700);
   }catch(err){ showMsg(msg,"err","Não foi possível registrar sua confirmação. Verifique a conexão e tente novamente."); }
   finally{ enviando=false; btn.disabled=false; btn.textContent="CONFIRMAR PRESENÇA"; }
 });

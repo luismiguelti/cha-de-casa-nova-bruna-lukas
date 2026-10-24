@@ -21,7 +21,9 @@ function iniciarAnimacoes(){
 }
 document.addEventListener("DOMContentLoaded", () => {
   try {
-    document.title = `${E.titulo || "Chá de Casa Nova"} | ${E.nomes || "Bruna e Lukas"}`;
+    document.title = document.querySelector(".classic-card")
+      ? (E.nomes || "Bruna e Lukas")
+      : `${E.titulo || "Chá de Casa Nova"} | ${E.nomes || "Bruna e Lukas"}`;
     document.querySelectorAll("[data-ev]").forEach(el => el.textContent = E[el.dataset.ev] ?? "");
     iniciarAnimacoes();
   } catch (error) {
